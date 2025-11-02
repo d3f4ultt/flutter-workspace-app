@@ -52,6 +52,7 @@ dependencies:
   logger: ^2.0.2+1
   equatable: ^2.0.5
   uuid: ^4.2.2
+  crypto: ^3.0.3
   
   # Payments
   flutter_stripe: ^10.1.0
