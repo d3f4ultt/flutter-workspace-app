@@ -1,0 +1,104 @@
+name: flutter_saas_platform
+description: A composable SaaS marketplace platform built with Flutter - Whop.com competitor
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # State Management
+  flutter_riverpod: ^2.4.9
+  riverpod_annotation: ^2.3.3
+  
+  # Backend & Database
+  supabase_flutter: ^2.0.0
+  
+  # Navigation
+  go_router: ^13.0.0
+  
+  # HTTP & API
+  dio: ^5.4.0
+  http: ^1.1.2
+  
+  # Code Generation
+  freezed_annotation: ^2.4.1
+  json_annotation: ^4.8.1
+  
+  # Storage
+  flutter_secure_storage: ^9.0.0
+  shared_preferences: ^2.2.2
+  
+  # Web3 & Crypto
+  web3dart: ^2.7.1
+  walletconnect_flutter_v2: ^2.1.11
+  solana: ^0.30.3
+  
+  # OAuth & Auth
+  flutter_web_auth_2: ^3.0.0
+  oauth2: ^2.0.2
+  
+  # UI Components
+  flutter_svg: ^2.0.9
+  cached_network_image: ^3.3.0
+  shimmer: ^3.0.0
+  
+  # Utils
+  url_launcher: ^6.2.2
+  intl: ^0.18.1
+  logger: ^2.0.2+1
+  equatable: ^2.0.5
+  uuid: ^4.2.2
+  
+  # Payments
+  flutter_stripe: ^10.1.0
+  
+  # Discord Integration
+  discord_oauth2: ^2.0.0
+  
+  # Forms & Validation
+  flutter_form_builder: ^9.1.1
+  form_builder_validators: ^9.1.0
+  
+  # Icons
+  cupertino_icons: ^1.0.6
+  font_awesome_flutter: ^10.6.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  
+  # Linting
+  flutter_lints: ^3.0.1
+  
+  # Code Generation
+  build_runner: ^2.4.7
+  freezed: ^2.4.6
+  json_serializable: ^6.7.1
+  riverpod_generator: ^2.3.9
+  
+  # Testing
+  mockito: ^5.4.4
+  integration_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+    - assets/icons/
+  
+  fonts:
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/Inter-Regular.ttf
+        - asset: assets/fonts/Inter-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Inter-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Inter-Bold.ttf
+          weight: 700
